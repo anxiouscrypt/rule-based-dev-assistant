@@ -7,6 +7,7 @@ export function normalizeInput(input: string): string {
     .trim()
     .replace(/[^\w\s.-]/g, ' ')
     .replace(/\s+/g, ' ')
+    .trim()
     .toLowerCase()
 }
 

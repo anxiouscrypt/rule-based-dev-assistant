@@ -11,10 +11,10 @@
 - Template renderer
 - Copy and examples workflow
 - Optional custom templates
+- Vitest coverage
 
 ## Planned
 
-- Vitest coverage
 
 ## Future Improvements
 

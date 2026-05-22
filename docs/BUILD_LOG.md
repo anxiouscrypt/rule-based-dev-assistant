@@ -37,3 +37,7 @@
 
 - Added a lightweight custom template panel.
 - Stored user-created custom templates in `localStorage`.
+
+## Phase 8: Tests
+
+- Added Vitest tests for input normalization, matching, unsupported commands, and template rendering.
