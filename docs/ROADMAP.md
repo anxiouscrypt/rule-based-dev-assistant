@@ -10,10 +10,10 @@
 - Deterministic rule matcher
 - Template renderer
 - Copy and examples workflow
+- Optional custom templates
 
 ## Planned
 
-- Optional custom templates
 - Vitest coverage
 
 ## Future Improvements

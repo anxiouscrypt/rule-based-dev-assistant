@@ -32,3 +32,8 @@
 - Added copy-to-clipboard behavior.
 - Added clearer preview metadata for matched and unsupported commands.
 - Kept examples visible as fast command starters.
+
+## Phase 7: Custom Template Storage
+
+- Added a lightweight custom template panel.
+- Stored user-created custom templates in `localStorage`.

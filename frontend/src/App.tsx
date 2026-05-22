@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { CategorySidebar } from './components/CategorySidebar'
 import { CommandInput } from './components/CommandInput'
+import { CustomTemplateStorage } from './components/CustomTemplateStorage'
 import { SuggestionList } from './components/SuggestionList'
 import { TemplatePreview } from './components/TemplatePreview'
 import { examples } from './lib/examples'
@@ -19,15 +20,18 @@ function App() {
         </header>
         <div className="grid gap-4 lg:grid-cols-[240px_minmax(0,1fr)_520px]">
           <CategorySidebar />
-          <section className="rounded-lg border border-slate-200 bg-white">
-            <div className="border-b border-slate-200 px-4 py-3">
-              <h2 className="text-base font-semibold">Command</h2>
-            </div>
-            <div className="space-y-4 p-4">
-              <CommandInput value={command} onChange={setCommand} />
-              <SuggestionList examples={examples} onSelect={setCommand} />
-            </div>
-          </section>
+          <div className="space-y-4">
+            <section className="rounded-lg border border-slate-200 bg-white">
+              <div className="border-b border-slate-200 px-4 py-3">
+                <h2 className="text-base font-semibold">Command</h2>
+              </div>
+              <div className="space-y-4 p-4">
+                <CommandInput value={command} onChange={setCommand} />
+                <SuggestionList examples={examples} onSelect={setCommand} />
+              </div>
+            </section>
+            <CustomTemplateStorage />
+          </div>
           <TemplatePreview command={command} />
         </div>
       </div>
