@@ -21,3 +21,8 @@
 - Added rule definitions for the required command categories.
 - Implemented input normalization, keyword-based intent matching, and entity extraction.
 - Connected match metadata to the preview panel.
+
+## Phase 5: Template Renderer
+
+- Added copy-ready templates for FastAPI, React, README, `.env.example`, GitHub issues, and Pytest.
+- Connected matched intent and entity data to rendered output.

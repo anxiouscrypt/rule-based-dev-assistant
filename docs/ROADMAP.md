@@ -8,10 +8,10 @@
 - Rule engine pipeline
 - Command palette interface
 - Deterministic rule matcher
+- Template renderer
 
 ## Planned
 
-- Template renderer
 - Copy and examples workflow
 - Optional custom templates
 - Vitest coverage
