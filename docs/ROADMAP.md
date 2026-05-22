@@ -9,10 +9,10 @@
 - Command palette interface
 - Deterministic rule matcher
 - Template renderer
+- Copy and examples workflow
 
 ## Planned
 
-- Copy and examples workflow
 - Optional custom templates
 - Vitest coverage
 

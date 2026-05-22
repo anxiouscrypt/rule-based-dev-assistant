@@ -26,3 +26,9 @@
 
 - Added copy-ready templates for FastAPI, React, README, `.env.example`, GitHub issues, and Pytest.
 - Connected matched intent and entity data to rendered output.
+
+## Phase 6: UX Polish
+
+- Added copy-to-clipboard behavior.
+- Added clearer preview metadata for matched and unsupported commands.
+- Kept examples visible as fast command starters.
