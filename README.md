@@ -42,4 +42,48 @@ Command input
 
 ## Local Setup
 
-Setup instructions will be completed with the MVP.
+Prerequisites:
+
+- Node.js 20 or newer
+
+Run locally:
+
+```bash
+chmod +x scripts/dev.sh
+./scripts/dev.sh
+```
+
+Manual setup:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Run checks:
+
+```bash
+cd frontend
+npm test
+npm run build
+```
+
+## Example Commands
+
+- `create fastapi endpoint orders`
+- `make react component ServiceCard`
+- `generate readme for api tool`
+- `create pytest for config validation`
+- `make github issue for payment bug`
+- `create env example for fastapi app`
+
+## What I Learned
+
+- Assistant-style workflows do not always need an LLM.
+- Deterministic tools are strongest when their boundaries are explicit.
+- Template quality matters because the generated snippet is the product surface.
+
+## Future Improvements
+
+See `docs/ROADMAP.md`.

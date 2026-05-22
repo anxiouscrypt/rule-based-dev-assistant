@@ -12,9 +12,7 @@
 - Copy and examples workflow
 - Optional custom templates
 - Vitest coverage
-
-## Planned
-
+- Local setup and demo notes
 
 ## Future Improvements
 

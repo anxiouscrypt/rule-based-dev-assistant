@@ -41,3 +41,9 @@
 ## Phase 8: Tests
 
 - Added Vitest tests for input normalization, matching, unsupported commands, and template rendering.
+
+## Phase 9: Final Polish
+
+- Added README setup instructions and example commands.
+- Added screenshot placeholder.
+- Removed unused Vite starter files.

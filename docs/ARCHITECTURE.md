@@ -18,6 +18,7 @@ Input text -> normalize -> match intent -> extract entity -> render template -> 
 - No backend.
 - No LLM or paid API.
 - Deterministic matching only.
+- Custom templates are stored in browser `localStorage`.
 
 ## Rule Engine
 
