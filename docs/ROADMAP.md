@@ -7,10 +7,10 @@
 - No-LLM architecture design
 - Rule engine pipeline
 - Command palette interface
+- Deterministic rule matcher
 
 ## Planned
 
-- Deterministic rule matcher
 - Template renderer
 - Copy and examples workflow
 - Optional custom templates

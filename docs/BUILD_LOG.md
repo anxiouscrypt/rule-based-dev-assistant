@@ -15,3 +15,9 @@
 - Created the Vite React TypeScript frontend.
 - Configured Tailwind CSS.
 - Added command input, category sidebar, examples list, and preview panel.
+
+## Phase 4: Deterministic Rule Matcher
+
+- Added rule definitions for the required command categories.
+- Implemented input normalization, keyword-based intent matching, and entity extraction.
+- Connected match metadata to the preview panel.
