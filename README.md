@@ -23,6 +23,15 @@ Screenshot placeholder: `docs/screenshots/rule-based-dev-assistant.png`
 
 Input text -> normalizer -> intent matcher -> entity extractor -> template renderer -> preview.
 
+```txt
+Command input
+  -> normalize
+  -> match deterministic rule
+  -> extract entity
+  -> render template
+  -> preview and copy
+```
+
 ## Tech Stack
 
 - React, TypeScript, Vite

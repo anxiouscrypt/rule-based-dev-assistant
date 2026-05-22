@@ -4,6 +4,8 @@
 
 - Repository structure
 - Documentation baseline
+- No-LLM architecture design
+- Rule engine pipeline
 
 ## Planned
 
