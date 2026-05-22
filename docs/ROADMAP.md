@@ -6,10 +6,10 @@
 - Documentation baseline
 - No-LLM architecture design
 - Rule engine pipeline
+- Command palette interface
 
 ## Planned
 
-- Command palette interface
 - Deterministic rule matcher
 - Template renderer
 - Copy and examples workflow

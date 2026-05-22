@@ -9,3 +9,9 @@
 - Documented the no-LLM assistant design.
 - Defined the normalize, match, extract, render pipeline.
 - Captured deterministic matching tradeoffs.
+
+## Phase 3: Command Palette Interface
+
+- Created the Vite React TypeScript frontend.
+- Configured Tailwind CSS.
+- Added command input, category sidebar, examples list, and preview panel.
